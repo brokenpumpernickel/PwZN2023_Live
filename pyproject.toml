@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pwzn2023-live"
+version = "0.1.0"
+description = ""
+authors = ["Maciej J. Mrowinski <47922372+brokenpumpernickel@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "pwzn2023_live"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

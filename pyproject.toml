@@ -8,6 +8,9 @@ packages = [{include = "pwzn2023_live"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
+ascii-graph = "^1.5.1"
+tqdm = "^4.66.1"
+rich = "^13.6.0"
 
 
 [build-system]

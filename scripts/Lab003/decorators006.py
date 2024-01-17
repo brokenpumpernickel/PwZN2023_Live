@@ -8,7 +8,7 @@ def fibon(n):
     return fibon(n-1) + fibon(n-2)
 
 start = time.time()
-for i in range(100):
+for i in range(34):
     print(i, fibon(i))
 end = time.time()
 
